@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What is MiAmor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top left, #001a4d, #003366 60%, #000c1a);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      position: relative;
+      text-align: left;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin: 30px 0 15px;
+      background: linear-gradient(to right, #00eaff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #00eaff;
+      font-weight: 600;
+    }
+
+    .cta {
+      margin-top: 20px;
+    }
+
+    .cta button {
+      background: linear-gradient(to right, #0044ff, #66ccff);
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 28px;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 200, 255, 0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .cta button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 200, 255, 0.8);
+    }
+
+    .image {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+      }
+      to {
+        text-shadow: 0 0 20px #00eaff, 0 0 30px #00ffff;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .cta button {
+        font-size: 0.95rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://miamorweb.site/miamor-logo.png" alt="MiAmor Logo">
+    </div>
+
+    <h1>What is MiAmor</h1>
+
+    <p>MiAmor is a dynamic platform designed to help users find love, make money through networking, and acquire valuable skills.</p>
+
+    <p>Serving multiple African countries, it offers a space for meaningful connections, financial opportunities, and personal growth through learning.</p>
+
+    <p>Founded by a seasoned serial entrepreneur with diverse expertise, <span class="highlight">MIAMOR</span> is built to ensure every user gains real value for their time. With a strong focus on community, empowerment, and practical results, the platform blends relationship-building with entrepreneurship and skill development.</p>
+
+    <div class="cta">
+      <button>Join us today</button>
+    </div>
+
+    <div class="image">
+      <img src="IMG-20250803-WA0044.jpg" alt="MiAmor Heart Balloons">
+    </div>
+  </div>
+</body>
+</html>
