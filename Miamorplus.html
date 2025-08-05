@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiAmor Plus Earnings Framework</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at center, #0033cc, #000733);
+      color: white;
+    }
+
+    .flyer {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    .main-title {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: #FFB6C1;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #1f3cff, #337fff);
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,255,0.2);
+      font-size: 14px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .card::after {
+      content: "♥";
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+      opacity: 0.1;
+      font-size: 30px;
+    }
+
+    .card span {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 5px;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 12px 15px;
+      border-radius: 12px;
+      margin: 8px auto;
+      max-width: 600px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .section span {
+      font-weight: bold;
+      color: #00f7ff;
+    }
+
+    .heart-image {
+      margin-top: 30px;
+    }
+
+    .heart-image img {
+      width: 200px;
+      border-radius: 50%;
+      box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="flyer">
+    <div class="logo">
+      <img src="https://miamorweb.site/miamor-logo.png" alt="MiAmor Logo">
+    </div>
+    <h1 class="main-title">Earnings Framework</h1>
+    <h2 class="subtitle">MiAmor Plus</h2>
+
+    <div class="grid">
+      <div class="card">Access Fee <span>10,000</span></div>
+      <div class="card">Onboarding gift <span>8000</span></div>
+      <div class="card">Connection commission <span>9100</span></div>
+      <div class="card">First level spill <span>200</span></div>
+      <div class="card">Second level spill <span>100</span></div>
+      <div class="card">Game modules <span>3000</span></div>
+      <div class="card">Matching Add ons <span>2000</span></div>
+      <div class="card">Open Love hamper <span>5000</span> for MiAmor Ultra</div>
+      <div class="card">TikTok/fb lovers share <span>1500/5k</span> Views</div>
+    </div>
+
+    <div class="section">NUMBER OF MATCHES > <span>2 PER WEEK</span></div>
+    <div class="section">SELL IT SECTOR: <span>DEPLOYED</span></div>
+    <div class="section">INCENTIVES: <span>DEPLOYED</span></div>
+    <div class="section">MARATHON CONTEST: <span>DEPLOYED</span></div>
+    <div class="section">COUPLES CHALLENGE: <span>DEPLOYED</span></div>
+    <div class="section">SKILLS LAB: <span>DEPLOYED</span></div>
+    <div class="section">COUPLES TRIP: <span>DEPLOYED</span></div>
+    <div class="section">LOVE HAMPER: <span>DEPLOYED</span></div>
+
+    <div class="heart-image">
+      <img src="IMG-20250803-WA0055.jpg" alt="Love Heart Image">
+    </div>
+  </div>
+</body>
+</html>
